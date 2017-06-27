@@ -6,26 +6,25 @@
 	<title>Email title</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<style type="text/css">
+
+		ReadMsgBody{width: 100%;}
+		.ExternalClass{width: 100%;}
+
 		@media only screen and (max-width: 600px) {
 			.full-width {
 				width: 100% !important;
-				max-width: 600px !important;
 			}
 
 			.stack-column {
 				display: block !important;
 				width: 100% !important;
-				max-width: 600px !important;
 			}
 
-			img.pattern {
+			img[class="fluid"] {
 				display: block !important;
 				max-width: 100% !important;
 				height: auto !important;
 			}
-		}
-		@media only screen and (min-width: 601px) {
-
 		}
 
 	</style>
@@ -35,10 +34,10 @@
 	<table border="1" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;" align="center">
 		<tr>
 			<td>
-				<table border="1" cellpadding="0" cellspacing="0" width="600" style="max-width: 600px;">
+				<table border="1" cellpadding="0" cellspacing="0" width="600" style="max-width: 600px;" class="full-width">
 					<tr>
 						<td>
-							<table id="header" border="1" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+							<table id="header" border="1" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;" class="full-width">
 								<tr>
 									<td>
 									</td>
@@ -48,9 +47,15 @@
 					</tr>
 					<tr>
 						<td>
-							<table id="body" border="1" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+							<table id="body" border="1" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;" class="full-width">
 								<tr>
-									<td>	
+									<td>
+										<img alt="" src="http://image.jpg" width="" height="" border="0" style="display: block;" />	
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="" alias="" target="_blank" style="text-decoration: underline;"><span style="color: #CCCCCC;">Link</span></a>
 									</td>
 								</tr>		
 							</table>
@@ -58,7 +63,7 @@
 					</tr>
 					<tr>
 						<td>
-							<table id="header" border="1" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;">
+							<table id="header" border="1" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px;" class="full-width">
 								<tr>
 									<td>	
 									</td>
